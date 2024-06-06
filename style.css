@@ -1,0 +1,266 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url()
+
+}
+
+.wrapper{
+    background: url()
+    no-repeat center center;
+    min-height: 30rem;
+}
+
+nav{
+    width: 100%;
+    height: 80px;
+    background-color: #737373;
+    line-height: 80px;
+}
+
+nav ul{
+    float: right;
+    margin: 0;
+    margin-right: 3rem;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(36, 36, 36);
+    padding: 20px;
+}
+
+img{
+    width: 5%;
+    margin-left: 1.5rem;
+    margin-right: 1rem;
+    margin-top: 0%;
+    height: -80px;
+    float: left;
+}
+
+.img-TATABOGA {
+    width: 360px;
+    height: 350px;
+    margin-top: 60px;
+}
+
+.img-SERAGAMSEKOLAH {
+    width: 360px;
+    height: 350px;
+    float: none;
+    display: flex;
+}
+
+.img-PERHOTELAN {
+    width: 280px;
+    height: 250px;
+    margin-top: 60px;
+}
+
+.big {
+    width: 300px;
+}
+
+nav ul li:hover{
+    background-color: rgb(89, 0, 255);
+    color: rgb(153, 153, 172);
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.logo1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4c00ff;
+    font-size: 25px;
+    font-weight: 700;
+    float: left;
+}
+
+.img1 {
+    margin-left: -5rem;
+    width: 1983px;
+    height: 450px;
+    padding-bottom: 50px;
+}
+
+.judul  {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 80%;
+}
+
+.judul h1 {
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.judul p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding-bottom: 10px;
+    font-style: normal;
+
+}
+
+.img-matrik {
+    margin-top: 5rem;
+    width: 350px;
+    margin-bottom: 35px;
+}
+
+.img-makanan {
+    margin-top: 5rem;
+    width: 350px;
+    margin-bottom: 65px;
+    margin-right: 40px;
+}
+
+.content-matrik h2 {
+    margin-top: 115px;
+;
+}
+
+.img-kantin {
+    margin-top: 5rem;
+    width: 370px;
+    margin-bottom: 35px;
+}
+
+.content-kantin h2 {
+    margin-top: 115px;
+}
+
+.content-makanan {
+    margin-top: 115px;
+
+}
+
+.section {
+    background-image: url("");
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    margin-top: 4%;
+    background-size: 100%;
+}
+
+.section h2 {
+    color: rgb(89, 0, 255);
+    line-height: 50px;
+}
+
+.section p{
+    color: rgb(153, 132, 250);
+}
+
+.content1-perpus p {
+    margin-left: 405px;
+}
+
+.content2-perpus p {
+    margin-left: 405px;
+}
+
+.content2-perpus h3 {
+    margin-left: 405px;
+}
+
+.btn-1{
+    background-color: rgb(196, 196, 196);
+    padding: 0.7rem 1rem;
+    color: rgb(255, 254, 254);
+    border: none;
+    border-radius: 10px;
+}
+
+.features{
+    margin-top: 4%;
+    margin-bottom: 2%;
+}
+ 
+
+.features button{
+    padding: 0.7rem 2rem;
+    margin-right: 2rem;
+    font-size: 1.2rem;
+    opacity: 0.7;
+}
+
+showcase h1{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+#courses{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+#courses img{
+    width: 200px;
+    border-radius: 10px;
+    border: 2px solid #000;
+    margin: auto;
+}
+
+.apply{
+    margin-top: 4%;
+    background-color: rgb(0, 217, 255);
+    padding: 0.7rem 1rem;
+    color: rgb(98, 0, 255);
+    border: none;
+    border-radius: 10px;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .footer-main {
+    background-color:#000000;
+    color: rgb(89, 0, 255);
+    margin-top: 30px;
+  }
+  
+  .footer-grid {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(2, auto);
+    grid-gap: 10px;
+    margin: 0 auto;
+    max-width: 100%;
+    justify-items: center;
+  }
+  
+    .footer-grid {
+      padding-left: 20px;
+    }
+  
+  .footer-grid p {
+    margin: 10px 0;
+  }
+
+
+footer{
+    background-color:  #4800f0;
+    color: rgb(9, 255, 0);
+    text-align: center;
+    padding: 1rem;
+    margin-top: 0%;
+}
+
+.p {
+    text-align: justify;
+}
+
+/*selesai*/
